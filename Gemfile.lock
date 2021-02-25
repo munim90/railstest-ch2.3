@@ -103,7 +103,7 @@ GEM
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     public_suffix (4.0.6)
-    puma (4.3.6)
+    puma (4.3.7)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-proxy (0.6.5)
@@ -218,20 +218,20 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
-  capybara (>= 2.15)
+  capybara
   jbuilder (~> 2.7)
-  listen (~> 3.2)
-  puma (~> 4.1)
+  listen
+  puma (= 4.3.7)
   rails (~> 6.0.3, >= 6.0.3.4)
   rspec-rails
   sass-rails (>= 6)
   selenium-webdriver
   spring
-  spring-watcher-listen (~> 2.0.0)
+  spring-watcher-listen
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
-  web-console (>= 3.3.0)
+  web-console
   webdrivers
   webpacker (~> 4.0)
 
